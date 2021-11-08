@@ -1,4 +1,4 @@
-import  './main.css';
+import './main.css';
 
 const scores = document.querySelector('.scores');
 
