@@ -9,18 +9,18 @@ async function createGame(){
   return id;
 }
 
-// const button = document.querySelector('.submit');
-// const refreshButton = document.querySelector('.refresh');
-// const ul = document.querySelector('.list');
+const button = document.querySelector('.submit');
+const refreshButton = document.querySelector('.refresh');
+const ul = document.querySelector('.list');
 
-// async function postInfo(id, name, score) {
-//  const info = await axios.post(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`, {
-//     user: name,
-//     score: score
-//   });
-//   console.log(info.data.result);
+async function postInfo(id, name, score) {
+ const info = await axios.post(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`, {
+    user: name,
+    score: score
+  });
+  console.log(info.data.result);
 
-// }
+}
 
 // async function getData(id) {
 //   const res = await axios.get(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`);
