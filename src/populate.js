@@ -22,11 +22,11 @@ async function postInfo(id, name, score) {
 
 }
 
-// async function getData(id) {
-//   const res = await axios.get(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`);
+async function getData(id) {
+  const res = await axios.get(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`);
 
-//   return res.data.result;
-// }
+  return res.data.result;
+}
 
 
 // createGame().then((id) => {
