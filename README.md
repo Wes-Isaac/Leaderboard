@@ -24,9 +24,9 @@ To get a local copy up and running follow these simple example steps.
 
 Clone the repo to your local machine. Run this command
 
-git clone https://github.com/Wes-Isaac/To-do-list.git
+git clone https://github.com/Wes-Isaac/Leaderboard.git
 
-cd To-do-list
+cd Leaderboard
 
 Navigate to To-do-list folder/directory. At the project's root, on the terminal, run 'npm install' to install app dependencies
 
