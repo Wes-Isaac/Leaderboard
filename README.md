@@ -11,6 +11,7 @@
 - JavaScript
 - Webpack
 - Github
+- [Leaderboard API](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
 
 ## Live Demo
 
