@@ -47,8 +47,9 @@ main {
   border: 2px solid black;
 }
 
-.scores ul li {
+.scores .list li {
   list-style: none;
+  padding: 3px;
 }
 
 .li-grey {
@@ -70,6 +71,7 @@ form input {
   padding: 5px;
 }
 
-form input[type='submit'] {
+.submit {
   align-self: flex-end;
+  padding: 5px;
 }
