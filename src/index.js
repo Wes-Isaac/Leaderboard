@@ -15,12 +15,12 @@ const render = () => {
   });
 };
 
-button.addEventListener('click', (e) => {
+button.addEventListener('click', async (e) => {
   const name = document.querySelector('.name').value;
   const score = document.querySelector('.score').value;
   if (name && score) {
     e.preventDefault();
-    postInfo(name, score);
+    await postInfo(name, score);
     document.querySelector('form').reset();
     render();
   }
